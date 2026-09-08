@@ -1,0 +1,14 @@
+name = input("Enter the name ")
+
+pronouns = input("Enter the pronoun (he/she/they): ")
+object_pronoun = input("Enter the object pronoun (him/her/them): ")
+possessive = input("Enter the possesive pronoun (his/her/their): ")
+
+story = (
+    f"one day, {name.capitalize()} decided to learn how to code. At first, {pronouns} found programming "
+    f"challanging, but {pronouns} kept practicing every day. whenever {name} made a mistake "
+    f"friends helped {object_pronoun} understand the problem. After weeks of hardwork, "
+    f"{name} built {possessive} first program and felt prod of what {pronouns} had achieved."
+    )
+
+print ("story:", story)
